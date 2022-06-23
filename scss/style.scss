@@ -1,0 +1,335 @@
+@keyframes animacion{
+	0%{
+		background-position: 5% 0%;
+	}
+	25%{
+		background-position: 35% 0%;
+	}
+	50%{
+		background-position: 96% 0%;
+	}
+	100%{
+		background-position: 5% 0%;
+	}
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    width: 100%;
+    height: auto;
+    background-color: rgb(227, 134, 134);
+}
+header{
+    background: linear-gradient(90deg, rgba(217,105,77,1) 35%, rgba(255,255,255,1) 49%, rgba(217,203,46,1) 83%);
+    animation-name: animacion;
+	animation-iteration-count: infinite;
+	animation-duration: 12s;
+	animation-delay: 0s;
+	background-size: 500% 500%;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    background-color: rgb(211, 195, 73);
+}
+.contenedoraHeader{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+nav{
+    /*background: linear-gradient(90deg, rgba(217,105,77,1) 35%, rgba(255,255,255,1) 49%, rgb(223, 121, 54) 83%);
+    animation-name: animacion;
+	animation-iteration-count: infinite;
+	animation-duration: 12s;
+	animation-delay: 0s;
+	background-size: 500% 500%;*/
+}
+.nombre{
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 100%;
+    height: auto;
+    color: rgb(78, 72, 74);
+}
+.section{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+    background-color: rgb(234, 213, 145);
+}
+#contenedor__carousel{
+    width: 500px;
+    height: auto;
+    margin-top: 50px;
+    margin-left: 600px;
+}
+#contenedor__carousel:hover{
+    border: solid 1.5px rgb(209, 173, 53);
+}
+a{
+    text-decoration: none;
+}
+.container{
+    margin-top: 200px;
+    gap: 20px;
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: 
+    "img1 img1 img2 img2 img3 img3 publicidad publicidad"
+    "img4 img4 img5 img5 img6 img6 publicidad publicidad"
+    "img7 img7 img8 img8 img9 img9 publicidad publicidad"
+    "proximamente proximamente proximamente proximamente proximamente proximamente publicidad publicidad";
+}
+img{
+    width: auto;
+    height: auto;
+}
+.img1{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(234, 213, 145);
+    width: 100%;
+    height: auto;
+    grid-area: img1;
+}
+.img1:hover{
+    border: solid 2px rgb(185, 93, 93);
+}
+.img2{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(234, 213, 145);
+    grid-area: img2;
+}
+.img2:hover{
+    border: solid 2px rgb(185, 93, 93);
+}
+.img3{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(234, 213, 145);
+    grid-area: img3;
+}
+.img3:hover{
+    border: solid 2px rgb(185, 93, 93);
+}
+.img4{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(234, 213, 145);
+    grid-area: img4;
+}
+.img4:hover{
+    border: solid 2px rgb(185, 93, 93);
+}
+.img5{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(234, 213, 145);
+    grid-area: img5;
+}
+.img5:hover{
+    border: solid 2px rgb(185, 93, 93);
+}
+.img6{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(234, 213, 145);
+    grid-area: img6;
+}
+.img6:hover{
+    border: solid 2px rgb(185, 93, 93);
+}
+.img7{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(234, 213, 145);
+    grid-area: img7;
+}
+.img7:hover{
+    border: solid 2px rgb(185, 93, 93);
+}
+.img8{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(234, 213, 145);
+    grid-area: img8;
+}
+.img8:hover{
+    border: solid 2px rgb(185, 93, 93);
+}
+.img9{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(234, 213, 145);
+    grid-area: img9;
+}
+.img9:hover{
+    border: solid 2px rgb(185, 93, 93);
+}
+.publicidad{
+    background-color: darkorange;
+    grid-area: publicidad;
+}
+.publicidad__despegar{
+
+}
+.proximamente{
+    display: flex;
+    flex-direction: row;
+    background-color: darkorange;
+    grid-area: proximamente;
+}
+.nacionales{
+    width: 800px;
+    height: 170px;
+    padding: 10px;
+    margin-left: 25px;
+    background-color: rgb(192, 100, 100);
+}
+img{
+    margin: 4px;
+    border: solid 2px rgb(178, 116, 116);
+}
+.imagenNosotros{
+    width: auto;
+    height: auto;
+    margin-top: 15px;
+    margin-left: 400px;
+    border-left: 4px solid rgb(149, 151, 40);
+}
+.sectionNosotros{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    margin: 10px 0px 20px 0px;
+}
+.section__nosotros--div{
+    text-align: center;
+}
+.section__galeria{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+    "video1"
+    "video2"
+    "footer";
+}
+#footer__galeria{
+    margin-top: 600px;
+}
+.video1{
+    grid-area: video1;
+}
+.video2{
+    grid-area: video2;
+}
+.footer{
+    grid-area: footer;
+}
+.section__footer{
+    margin-top: 300px;
+}
+.contenedorformulario{
+    padding: 10px;
+}
+.formularios{
+    padding: 40px;
+    gap: 20px;
+}
+.mapa{
+    width: 1200PX;
+    margin-left: 200px;
+}
+.submit{
+    color: white;
+    background-color: rgb(133, 22, 64);
+}
+.submit:hover{
+    color: black;
+    background-color: rgb(196, 34, 69);
+}
+fieldset{
+    padding: 5px;
+    margin: 5px;
+}
+input{
+    background-color: rgb(238, 219, 95);
+}
+.multimedia{
+    padding: 10px;
+    width: 100%;
+    height: 200px;
+    background-color: rgb(186, 117, 117);
+}
+iframe{
+    padding: 10px;
+    width: 100%;
+}
+iframe:hover{
+    border: 1.5px solid rgb(235, 223, 223);
+}
+footer{
+    display: flex;
+    width: 100%;
+    height: auto;
+    color: rgb(156, 52, 154);
+    background-color: rgb(141, 38, 102);
+}
+.container__contacto--footer{
+    padding: 20px;
+    margin-top: 50px;
+    width: auto;
+    height: auto;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.container__redes{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: auto;
+    height: auto;
+}
+.instagram{
+    width: auto;
+    height: auto;
+    transform: scale(0.2);
+}
+.instagram:hover{
+    border: solid 2px rgb(179, 23, 23);
+}
+.facebook{
+    width: auto;
+    height: auto;
+    transform: scale(0.2);
+}
+.facebook:hover{
+    border: solid 2px rgb(3, 21, 182);
+}
+.whatsapp{
+    width: auto;
+    height: auto;
+    transform: scale(0.2);
+}
+.whatsapp:hover{
+    border: solid 2px rgb(0, 156, 13);
+}
